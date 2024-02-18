@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: lightseagreen; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* img{
+    height:400px;
+} */
+#container{
+    height: 400px;
+    width: 350px;
+    border-radius:10px;
+    background-color:white;
+
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
